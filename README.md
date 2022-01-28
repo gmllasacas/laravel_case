@@ -8,7 +8,7 @@
 
 1. Clone the repository
 ```
-git clone https://github.com/gmllasacas/laravel_backend_case.git
+git clone https://github.com/gmllasacas/laravel_case.git
 ```
 
 2. Setup environment
