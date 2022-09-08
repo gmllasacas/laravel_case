@@ -34,6 +34,8 @@ php artisan migrate:fresh --seed
 php artisan key:generate
 ```
 
+#Execution 
+
 5. API tests
 
 Import the postman collection and environment for the API test.
