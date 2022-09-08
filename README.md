@@ -1,6 +1,13 @@
+# Core requirements 
+
+- Create a POST endpoint that receives as a body param the URL to shorten and it returns as part of the response an URL with the shortest possible length.
+- Use background/async jobs to crawl the URL that is shortened, pull the title from the website, and store it.
+- Create a route to get redirected to the original URL from the shortened URL, i.e From https://localhost:3000/a -> https://en.wikipedia.org/wiki/Site
+- Create a GET endpoint that returns the top 100 URLs most frequently accessed, including the title crawled from step 2.
+
 # Requirements
 
-- A PHP 7.4.x enviroment
+- A PHP 7.4.x environment
 - MySQL installed
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
@@ -29,12 +36,12 @@ php artisan key:generate
 
 5. API tests
 
-Import the postman collection and enviroment for the API test.
+Import the postman collection and environment for the API test.
 
 - The collection: documents/postman/laravel_case.postman_collection
-- The enviroment: documentos/postman/laravel_case-local.postman_environment.json
+- The environment: documents/postman/laravel_case-local.postman_environment.json
 
-Define the correct url-api-v1 for the enviroment and select the enviroment on postman.
+Define the correct url-api-v1 for the environment and select the environment on postman.
 
 6. Tests
 
@@ -42,10 +49,6 @@ Define the correct url-api-v1 for the enviroment and select the enviroment on po
 php artisan test
 ```
 
-7. Done
+7. TODO
 
-- Endpoints for create and list
-
-8. TODO
-- Add the crawler to retrieve the title
-
+- Create a GET endpoint that returns the top 100 URLs most frequently accessed, including the title crawled from step 2.
