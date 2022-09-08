@@ -15,7 +15,7 @@
 
 1. Clone the repository
 ```
-git clone https://github.com/gmllasacas/laravel_case.git
+git clone https://github.com/gmllasacas/url_shortener_api.git
 ```
 
 2. Setup environment
